@@ -1,0 +1,72 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": ["prettier", "flowtype"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "prefer-default-export": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/label-has-for": 0,
+    "no-plusplus": 0,
+    "no-param-reassign": 0,
+    "react/require-default-props": 0,
+    "react/no-array-index-key": 0,
+    "no-unused-expressions": 0,
+    "no-sequences": 0,
+    "react/no-find-dom-node": 0,
+    "react/no-access-state-in-setstate": 0,
+    "react/no-unescaped-entities": 0,
+    "flowtype/no-types-missing-file-annotation": 0,
+    "import/no-extraneous-dependencies": 0,
+    "consistent-return": 0,
+    "no-nested-ternary": 0,
+    "react/sort-comp": 1,
+    "radix": 0,
+    "no-shadow": 0,
+    "import/prefer-default-export": 1,
+    "no-unused-vars": 1,
+    "react/prefer-stateless-function": 1,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "no-underscore-dangle": 0,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
+    "func-names": ["warn", "always", { "generators": "never" }]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "sessionStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}

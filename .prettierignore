@@ -1,0 +1,17 @@
+package.json
+package-lock.json
+README.md
+translationKeys.json
+.prettierignore
+.flowconfig
+.eslintignore
+.gitattributes
+
+src/version.json
+
+/**/.gitignore
+.idea/*
+/**/*.png
+/**/*.jpg
+/**/*.svg
+/**/*.ico
